@@ -1,0 +1,76 @@
+body{
+    background-color: indianred;
+    font-family: 'Roboto', sans-serif;
+}
+/* css en html, primera forma "style y body" */
+
+/* generalmente la sintaxis es un tag corchetes y luego 
+lo que quiera modificar */
+
+p{
+    color: white;
+    font-size: 24px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+}
+
+/* para seleccionar varios elementos puedo utilizar la "," */
+
+div h2{
+    color: aquamarine;
+}
+
+/* podemos modificar los elementos dentro de las etiquetas
+contenedoras por separado (selectores en css para mas info) */
+
+/* IDs y Clases: "id y class"*/
+/* IDs son unicos por elementos
+las clases son repetibles */
+
+#parrafo-especial{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+/* 1.5 em aumenta el tamaño un 50% 
+font weight aumenta el peso ?¿*/
+
+.parrafo{
+    color: blue;
+    font-style: italic;
+}
+
+/* # para indicar una ID
+. para indicar una clase */
+
+/* Para solucionar como se ve la imagen y el link pegados: */
+
+a, img{
+    display: block;
+}
+
+/* Decorando el link: */
+
+a{
+    margin: 50px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+/* con el a:hover estas seleccionando los links pero
+cuando pasas el mouse por encima */
+
+a:hover{
+    color: chartreuse;
+}
+
+/* estilizando imagenes 
+solo con el width se basa en el ancho del body variable si
+cambiamos el tamaño de la ventana
+el margin lo centra automaticamente*/
+
+img{
+    width: 70%;
+    margin: auto;
+}
